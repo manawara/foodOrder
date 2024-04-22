@@ -1,0 +1,41 @@
+.cart {
+    display: flex;
+    flex-direction: column;
+    &__list {
+        list-style: none;
+        padding: 0;
+        width: 100%;
+        &-name {
+            font-weight: 700;
+        }
+        &-content {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        &-action {
+            display: flex;
+            span {
+                margin: 0 10px;
+            }
+        }
+    }
+
+    &__item {
+        margin-bottom: 20px;
+    }
+    &__price {
+        font-weight: 700;
+        font-size: 2rem;
+        align-self: flex-end;
+    }
+
+    &__buttons {
+        display: flex;
+        align-self: flex-end;
+        margin-top: 20px;
+        div:first-child {
+            margin-right: 20px;
+        }
+    }
+}

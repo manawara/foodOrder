@@ -1,0 +1,15 @@
+.modal {
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: #e3dcd1;
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+
+    &-close {
+        position: absolute;
+        top: 0;
+        left: 90%;
+    }
+}
